@@ -11,6 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', studentRoutes);
 
 //start server
-app.listen(3000, () = {
-    console.log ('server running on http://localhost:3000')
+
+    app.listen(3000, () => {
+    console.log('server running on http://localhost:3000');
 });
